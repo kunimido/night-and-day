@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9653335222841B020088E24A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653335122841B020088E24A /* main.swift */; };
+		965333BB22882F620088E24A /* SkyWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965333BA22882F620088E24A /* SkyWatcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		9653334E22841B020088E24A /* Night and Day */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Night and Day"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9653335122841B020088E24A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		965333BA22882F620088E24A /* SkyWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWatcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				9653335122841B020088E24A /* main.swift */,
+				965333BA22882F620088E24A /* SkyWatcher.swift */,
 			);
 			path = "Night and Day";
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9653335222841B020088E24A /* main.swift in Sources */,
+				965333BB22882F620088E24A /* SkyWatcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

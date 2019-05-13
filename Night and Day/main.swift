@@ -8,5 +8,12 @@
 
 import Foundation
 
-print("Hello, World!")
-
+let dark = SkyWatcher().isDark()
+var errors: NSDictionary?
+NSAppleScript(source: """
+    tell application "System Events"
+        if dark mode of appearance preferences is not \(dark) then
+            set dark mode of appearance preferences to \(dark)
+        end if
+    end tell
+    """)?.executeAndReturnError(&errors)

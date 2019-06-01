@@ -6,7 +6,7 @@
 	<string>com.github.kunimido.night-and-day</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Users/dominique/bin/night-and-day</string>
+		<string>$INSTALL/night-and-day</string>
 	</array>
 	<key>StartCalendarInterval</key>
 	<array>

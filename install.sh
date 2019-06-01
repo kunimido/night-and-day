@@ -10,6 +10,6 @@ xcodebuild install DSTROOT="$HOME" INSTALL_PATH=bin PRODUCT_NAME="$PRODUCT"
 xcodebuild clean
 
 cd "$HOME/Library/LaunchAgents/"
-cp -f "$SRC/$PLIST" .
+sed -E 's=\$INSTALL='"$HOME/bin=" "$SRC/$PLIST" > "$PLIST"
 launchctl bootout "gui/$(id -u)/$SERVICE"
 launchctl bootstrap gui/$(id -u) $PLIST
